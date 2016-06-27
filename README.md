@@ -74,6 +74,10 @@ npm start
 
 > `npm run typings -- install`
 
+> If you got error message("The package @angular/core@2.0.0-rc.3 does not satisfy its siblings' peerDependencies requirements!") while npm install:
+
+> `npm install npm -g`
+
 The `npm start` command first compiles the application, 
 then simultaneously re-compiles and runs the `lite-server`.
 Both the compiler and the server watch for file changes.
